@@ -10,6 +10,6 @@ then
     echo "This username already exists" 
 else
     echo "This username does not exist" 
-        sudo useradd -m $username
-        echo "The username $username has now been added"
+    sudo useradd -m $username
+    echo "The username $username has now been added"
 fi
